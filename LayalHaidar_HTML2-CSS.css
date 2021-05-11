@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+}
+
+.vertical-menu {
+    position: relative;
+    width: 200px;
+    list-style-type: none;
+    top: 13px;
+}
+
+.vertical-menu a {
+    display: block;
+    color: black;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.home {
+    background-color: #04AA6D;
+    color: white;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #c0c0c0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background-color: cadetblue;
+}
